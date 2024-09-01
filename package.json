@@ -1,0 +1,39 @@
+{
+  "name": "terminal-ansi-colors",
+  "version": "1.0.0",
+  "main": "color.js",
+  "scripts": {
+    "test": "tsx --watch test.ts"
+  },
+  "files": [
+    "color.js",
+    "package.json"
+  ],
+  "exports": {
+    ".": "./color.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "terminal",
+    "shell",
+    "color",
+    "ANSII"
+  ],
+  "author": "LucasLessaAnacleto",
+  "license": "ISC",
+  "description": "",
+  "homepage": "https://github.com/LucasLessaAnacleto/terminal-color#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessaAnacleto/terminal-color.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.18.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "terminal-ansi-colors": "file:",
+    "terminal-color": "file:"
+  }
+}

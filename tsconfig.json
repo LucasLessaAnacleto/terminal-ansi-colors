@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",                                  
+      "lib": ["ESNext"],                              
+      // "experimentalDecorators": true,                   
+      // "emitDecoratorMetadata": true,                    
+      
+      "module": "commonjs",                                                             
+      "typeRoots": [
+        "./node_modules/@types",
+        "./src/@types"
+      ],                                  
+      "resolveJsonModule": true, 
+      "outDir": "src",
+      // "moduleResolution": "node10",
+    
+      "allowJs": true,                                                            
+      // "sourceMap": true,                             
+      "removeComments": true, 
+      "declaration": true,                              
+      // "declarationMap": true, 
+      // "inlineSourceMap": true,                           
+  
+      "esModuleInterop": true,                             
+      "forceConsistentCasingInFileNames": true,            
+      "strict": true,                                      
+      "skipLibCheck": true
+    },
+    "include": ["color.ts"],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
