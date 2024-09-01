@@ -136,3 +136,4 @@ console.log(message.str);
 // A mesma mensagem porém com o fundo padrão do terminal
 console.log(message.bgName("default").str);
 ```
+

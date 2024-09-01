@@ -1,16 +1,17 @@
 {
   "name": "terminal-ansi-colors",
   "version": "1.0.0",
-  "main": "color.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "tsx --watch test.ts"
+    "test": "tsx --watch test.ts",
+    "build": "tsc"
   },
   "files": [
-    "color.js",
+    "src",
     "package.json"
   ],
   "exports": {
-    ".": "./color.js",
+    ".": "./src/index.js",
     "./package.json": "./package.json"
   },
   "keywords": [
@@ -33,7 +34,6 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "terminal-ansi-colors": "file:",
-    "terminal-color": "file:"
+    "terminal-ansi-colors": "file:"
   }
 }
